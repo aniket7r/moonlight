@@ -13,7 +13,6 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://aniketkumar6256:earthware0306@cluster0.lsqwmdr.mongodb.net/moonlight');
 
 // Define schemas
 const VolunteerSchema = new mongoose.Schema({
